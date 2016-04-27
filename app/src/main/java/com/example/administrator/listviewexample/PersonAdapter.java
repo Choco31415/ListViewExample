@@ -20,6 +20,7 @@ public class PersonAdapter extends ArrayAdapter<Person> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Person person = getItem(position);
-        TextView personName = ()
+        TextView itemTopText = (TextView) convertView.findViewById(android.R.id.text1);
+        TextView itemBottomText = (TextView) convertView.findViewById(android.R.id.text2);
     }
 }
