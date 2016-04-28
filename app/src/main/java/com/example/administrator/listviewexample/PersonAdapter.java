@@ -22,5 +22,10 @@ public class PersonAdapter extends ArrayAdapter<Person> {
         Person person = getItem(position);
         TextView itemTopText = (TextView) convertView.findViewById(android.R.id.text1);
         TextView itemBottomText = (TextView) convertView.findViewById(android.R.id.text2);
+
+        itemTopText.setText(person.name);
+        itemBottomText.setText(person.age);
+
+        return convertView;
     }
 }

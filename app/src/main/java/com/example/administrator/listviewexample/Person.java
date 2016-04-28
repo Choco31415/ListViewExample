@@ -5,8 +5,8 @@ package com.example.administrator.listviewexample;
  */
 public class Person {
 
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     public Person(String name_, int age_) {
         name = name_;
